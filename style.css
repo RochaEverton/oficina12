@@ -27,7 +27,7 @@ body{
     height: auto;
     padding: 10px 0;
     text-align: center;
-    background: linear-gradient(135deg, #fa6666 0%, #700202 100%);
+    background: linear-gradient(135deg, #fa6666 0%, #f40000 100%);
     border-radius: 15px;
     box-shadow: 2px 5px 15px black;
     transition: transform 0.3s;
@@ -86,7 +86,7 @@ body{
 
 .container .card .card-content button a{
     text-decoration: none;
-    color: black;
+    color: red;
     font-size: 15px;
 }
 
