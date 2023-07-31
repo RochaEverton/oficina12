@@ -70,7 +70,7 @@ body{
 .container .card .card-content button{
     width: 120px;
     padding: 10px 20px;
-    background: red;
+    background: black;
     border-radius: 20px;
     margin-bottom: 10px;
     outline: none;
@@ -80,7 +80,7 @@ body{
 }
 
 .container .card .card-content button:hover{
-    background: red;
+    background: black;
     letter-spacing: 1.2px;
 }
 
