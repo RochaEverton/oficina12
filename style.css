@@ -1,0 +1,340 @@
+/* Estilos gerais */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    width: auto;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gold;
+	background: black
+}
+
+.container .card{
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #fa6666 0%, #700202 100%);
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+
+.container .card:hover{
+    transform: scale(1.050);
+}
+
+.container .card .card-title{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+.container .card .card-title h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: black;
+}
+
+.container .card .card-title p span{
+    font-size: 40px;
+    padding: 0 5px;
+}
+
+.container .card .card-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.container .card .card-content ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.container .card .card-content ul li i{
+    margin-right: 4px;
+}
+
+.container .card .card-content button{
+    width: 120px;
+    padding: 10px 20px;
+    background: red;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .card .card-content button:hover{
+    background: red;
+    letter-spacing: 1.2px;
+}
+
+.container .card .card-content button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+
+
+.header {
+  /* Estilos do cabeçalho */
+  background-color: #000; /* Cor de fundo do cabeçalho */
+  padding: 2px; /* Espaçamento interno do cabeçalho */
+  text-align: center; /* Alinhamento do conteúdo do cabeçalho */
+}
+
+.logo {
+  width: 200px; /* Largura da logo */
+  height: auto; /* Altura proporcional à largura */
+}
+
+
+/* Estilos do conteúdo principal */
+.main-content {
+  color: #fff;
+  position: relative; /* Posicionamento relativo */
+  display: flex; /* Utilizando flexbox */
+ 
+  justify-content: center; /* Centralizando horizontalmente */
+  font-family: "Nunito", sans-serif; /* Definindo a fonte */
+  
+  margin-top: 0px; /* Adicione a margem superior desejada para separar do cabeçalho */
+}
+
+.content-overlay {
+  /* Estilos do overlay do conteúdo imagem*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 44.8%; /* Define a altura em relação à largura */
+  background-image: url("/imagens/fundo.png");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1; /* Coloca a imagem atrás de tudo */
+}
+
+.content-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  height: 100%; /* Define a altura como 100% */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  background-image: url("/imagens/cadastro.png");
+  background-size: cover; /* Ajusta a imagem para cobrir todo o contêiner */
+  background-position: left top; /* Ajusta a posição da imagem para a esquerda */
+}
+
+
+
+.content-wrapper {
+  position: relative; /* Alterado para posicionar o conteúdo relativo ao overlay */
+  z-index: 1; /* Coloca o conteúdo acima da imagem e da sobreposição */
+  text-align: center; /* Centraliza o texto */
+  color: #fff; /* Define a cor do texto como branco */
+}
+
+
+
+
+
+.content-wrapper h2 {
+  font-size: 32px; /* Define o tamanho da fonte do título */
+  margin-bottom: 10px; /* Adiciona um espaçamento inferior para o título */
+  color: #fff;
+}
+
+.content-wrapper p {
+  font-size: 18px; /* Define o tamanho da fonte do parágrafo */
+  margin-bottom: 20px; /* Adiciona um espaçamento inferior para o parágrafo */
+  color: #fff;
+}
+
+.search-form {
+  display: flex; /* Aplica um layout flexível para alinhar os elementos */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  margin-bottom: 30px; /* Adiciona um espaçamento inferior para o formulário de pesquisa */
+  
+}
+
+.search-form input[type="text"] {
+  padding: 10px; /* Adiciona um espaçamento interno para o campo de pesquisa */
+  width: 300px; /* Define a largura do campo de pesquisa */
+  border: none; /* Remove a borda do campo de pesquisa */
+  border-radius: 20px; /* Adiciona um arredondamento nos cantos do campo de pesquisa */
+  font-size: 16px; /* Define o tamanho da fonte do campo de pesquisa */
+  
+}
+
+.search-form button {
+  padding: 10px 20px; /* Adiciona um espaçamento interno para o botão de pesquisa */
+  background-color: #e50914; /* Define a cor de fundo do botão de pesquisa */
+  color: #fff; /* Define a cor do texto do botão de pesquisa */
+  border: none; /* Remove a borda do botão de pesquisa */
+  border-radius: 20px; /* Adiciona um arredondamento nos cantos do botão de pesquisa */
+  font-size: 16px; /* Define o tamanho da fonte do botão de pesquisa */
+  cursor: pointer; /* Altera o cursor ao passar por cima do botão de pesquisa */
+}
+
+/*sombra na caixa de pesquisa*/
+.search-form {
+  position: relative; /* Adiciona posicionamento relativo */
+  display: flex; /* Aplica um layout flexível para alinhar os elementos */
+  justify-content: center; /* Centraliza os elementos horizontalmente */
+  margin-bottom: 30px; /* Adiciona um espaçamento inferior para o formulário de pesquisa */
+}
+
+.search-form::before {
+  content: "";
+  position: absolute; /* Adiciona posicionamento absoluto */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona a sombra */
+  z-index: -1; /* Coloca a camada da sombra abaixo do conteúdo */
+}
+/**/
+
+
+
+/* Cards */
+.card-container {
+  
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
+
+.card {
+  width: 200px; /* Define a largura do card */
+  background-color: #fff; /* Define a cor de fundo do card */
+  border-radius: 8px; /* Adiciona bordas arredondadas ao card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao card */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse as dimensões do card */
+  margin: 5px; /* Adiciona margens em todos os lados do card */
+  flex: 0 0 auto; /* Define o tamanho flexível dos cards */
+  margin-right: 10px; /* Adiciona uma margem à direita para criar espaço entre os cards */
+  scroll-snap-align: start; /* Alinha os cards ao início da rolagem */
+ 
+  width: 200px;
+  animation: slide s linear infinite;
+}
+
+
+.card img {
+  width: 100%; /* Faz a imagem do card ocupar todo o espaço disponível */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Redimensiona a imagem para preencher o espaço do container */
+}
+
+.card-content {
+  padding: 10px; /* Adiciona um espaçamento interno ao conteúdo do card */
+}
+
+.title {
+  font-size: 18px; /* Define o tamanho da fonte do título */
+  font-weight: bold; /* Define a espessura da fonte do título como negrito */
+  margin-bottom: 5px; /* Adiciona um espaçamento inferior ao título */
+}
+
+.overview {
+  font-size: 14px; /* Define o tamanho da fonte da descrição */
+  color: #888; /* Define a cor do texto da descrição */
+  margin-bottom: 10px; /* Adiciona um espaçamento inferior à descrição */
+}
+
+.button {
+  display: inline-block; /* Exibe o botão como um elemento de bloco */
+  padding: 8px 16px; /* Adiciona um espaçamento interno ao botão */
+  background-color: #e50914; /* Cor de fundo do botão */
+  color: #fff; /* Define a cor do texto do botão */
+  text-decoration: none; /* Remove a decoração de texto padrão do botão */
+  border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor ao botão */
+}
+
+.button:hover {
+  background-color: #e50914;/* Define a cor de fundo do botão ao passar o mouse por cima */
+}
+/**/
+
+
+.card-content h3 {
+  font-size: 18px; /* Define o tamanho da fonte do título */
+  font-weight: bold; /* Define a espessura da fonte do título como negrito */
+  margin-bottom: 5px; /* Adiciona um espaçamento inferior ao título */
+  color: #f7f5f5; /* Define a cor do texto do título */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.card-content p {
+  font-size: 14px; /* Define o tamanho da fonte da descrição */
+  color: #888; /* Define a cor do texto da descrição */
+  margin-bottom: 10px; /* Adiciona um espaçamento inferior à descrição */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.card-content a {
+  display: inline-block; /* Exibe o botão como um elemento de bloco */
+  padding: 8px 16px; /* Adiciona um espaçamento interno ao botão */
+  color: #fff; /* Define a cor do texto do botão */
+  text-decoration: none; /* Remove a decoração de texto padrão do botão */
+  border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor ao botão */
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.card-content a:hover {
+  background-color: #0a0202; /* Define a cor de fundo do botão ao passar o mouse por cima */
+}
+/**/
+
+
+/* Estilos para a seção de inscrição */
+.subscribe-section {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin-top: 20px; /* Adiciona um espaçamento superior para separar da seção anterior */
+}
+
+.subscribe-section button {
+  padding: 10px 20px; /* Adiciona um espaçamento interno ao botão */
+  background-color: #e50914; /* Define a cor de fundo do botão */
+  color: #fff; /* Define a cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 4px; /* Adiciona bordas arredondadas ao botão */
+  font-size: 16px; /* Define o tamanho da fonte do botão */
+  cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor ao botão */
+}
+
+.subscribe-section button:hover {
+  background-color: #e50914; /* Define a cor de fundo do botão ao passar o mouse por cima */
+}
+
