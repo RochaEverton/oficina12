@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>G5flix</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="logged_in.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script> -->
+  <!-- Or if you want the latest version from the main branch -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@canary"></script>
+</head>
+
+<body>
+  <!-- -------  linha de cabeçario --------------------- -->
+  <div class="container-fluid p-3 bg-dark text-white text-center">
+    <img src="imagens/LogoG5flix1.png" class="rounded-circle"
+      style="background-color: white; width: 200px; height: 100px;">
+
+    <!-- ----------- linha com 3 colunas tamanho 4 = 12 ---------linha 01---- -->
+    <div class="row">
+      <!-- ----------- linha com 3 colunas tamanho 4 = 12 ---------linha 01---- -->
+      <div class="row" id="videoContainer">
+        <!-- Vídeos serão adicionados aqui dinamicamente -->
+      </div>
+    </div>
+  </div>
+
+  <!-- -------  linha de rodapé --------------------- -->
+  <div class="container-fluid p-5 bg-dark text-white text-center">
+    <h6>G5flix seu portal de documentários</h6>
+    <a href="https://oficina12.auth.us-east-1.amazoncognito.com/logout?client_id=on6itd8v0t3nhhl3gn1j2sntu&logout_uri=https%3A%2F%2Fmain.d27fqi9z2fww0n.amplifyapp.com%2Flogged_out.html"
+      class="btn btn-danger">Sair do aplicativo </a>
+  </div>
+
+  <!-- Incluindo o arquivo script.js -->
+  <script src="logged_in.js"></script>
+</body>
+
+</html>
