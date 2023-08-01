@@ -23,7 +23,8 @@
   {
     "title": "Elvis",
     "poster": "poster/Elvis.png",
-    "videoSrc": "https://e198b4a6851405371c71aa989d8c8e63.egress.mediapackage-vod.us-east-1.amazonaws.com/out/v1/c87fe3b0ffcc49aeaca229021dc07165/5ea0598b21454734a54daffc70c9e271/90b8c17148154d919db8fed96071ae46/index.m3u8"    "sinopse": "Sinopse: A trama explora a vida e a música de Elvis Presley (Austin Butler), visto através do prisma de sua complicada relação com seu empresário.",
+    "videoSrc": "https://e198b4a6851405371c71aa989d8c8e63.egress.mediapackage-vod.us-east-1.amazonaws.com/out/v1/c87fe3b0ffcc49aeaca229021dc07165/5ea0598b21454734a54daffc70c9e271/90b8c17148154d919db8fed96071ae46/index.m3u8",
+    "sinopse": "Sinopse: A trama explora a vida e a música de Elvis Presley (Austin Butler), visto através do prisma de sua complicada relação com seu empresário.",
     "currentLevel": 7
   },
   {
