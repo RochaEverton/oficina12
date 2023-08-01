@@ -82,5 +82,12 @@
     "videoSrc": "https://a5a84c6a5d8e4e6a00f647925e72d4bb.egress.mediapackage-vod.us-east-1.amazonaws.com/out/v1/0cba9baaf6324a91a5b472617207617f/1e8dccb14916495dac530b3de5a87242/111667ce1ce948ac8d9216a0c63a9253/index.m3u8",
     "sinopse": "Sinopse: Em 2009, o mundo ficou em estado de choque quando o Capitão Chesley \"Sully\" Sullenberger conseguiu pousar um avião em pane no rio Hudson. A manobra quase impossível salvou a vida dos 150 passageiros e alçou Sully à categoria de herói nacional. No entanto, nem mesmo a aclamação pública foi capaz de impedir uma investigação rigorosa sobre sua reputação e carreira.",
     "currentLevel": 7
+  },
+   {
+    "title": "Teste Elvis",
+    "poster": "poster/Elvis.png",
+    "videoSrc": "https://e198b4a6851405371c71aa989d8c8e63.egress.mediapackage-vod.us-east-1.amazonaws.com/out/v1/c87fe3b0ffcc49aeaca229021dc07165/5ea0598b21454734a54daffc70c9e271/90b8c17148154d919db8fed96071ae46/index.m3u8",
+    "sinopse": "Sinopse: Em 2009, o mundo ficou em estado de choque quando o Capitão Chesley \"Sully\" Sullenberger conseguiu pousar um avião em pane no rio Hudson. A manobra quase impossível salvou a vida dos 150 passageiros e alçou Sully à categoria de herói nacional. No entanto, nem mesmo a aclamação pública foi capaz de impedir uma investigação rigorosa sobre sua reputação e carreira.",
+    "currentLevel": 7
   }
 ]
